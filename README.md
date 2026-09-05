@@ -8,7 +8,6 @@
 
 * **Dynamic Plugin Loading:** Load and unload `.jar` plugins on the fly without restarting the main application.
 * **Modular Architecture:** Strict adherence to the `IPluginAPI` contract ensures seamless integration of third-party modules.
-* **Custom UI & Tab Management:** Automatically generates sidebar buttons for loaded plugins and manages dynamic tabs with custom close (`X`) buttons.
 * **Robust File & Log Management:** Automatically creates and maintains localized workspace directories (`~/.AvioNode/Content/Plugins` and system logs) via a centralized `Recorder` utility.
 * **Safe Uninstallation:** Safely closes active classloaders and deletes physical plugin files upon removal.
 
