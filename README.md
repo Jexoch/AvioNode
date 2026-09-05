@@ -3,6 +3,9 @@
 **AvioNode** is a modular, lightweight, and extensible Java-based plugin framework. It allows developers to load, manage, and interact with external `.jar` plugins dynamically at runtime using `URLClassLoader` and Java Reflection.
 
 ---
+## Note
+When deleting the application, do not forget to delete the `.AvioNode` folder from your `user.home` directory (`C:\Users\YourUsername` on Windows) to ensure a clean removal.
+
 
 ## Features
 
