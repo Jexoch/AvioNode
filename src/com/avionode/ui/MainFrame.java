@@ -141,6 +141,7 @@ public class MainFrame extends JFrame {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				pluginBtnHolder.removeAll(); // changed
 				Recorder.logSystem("INFO", "User triggered UI and plugin list refresh.");
 				pluginBtnHolder.add(lblPluginsLabel);
 				loadClass();
